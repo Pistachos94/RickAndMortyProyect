@@ -1,0 +1,142 @@
+body{
+    background: #05292E;
+    color:white;
+}
+.searchCont{
+    margin-bottom: 2rem;
+}
+.search, button{
+    height: 2.5rem;
+    box-sizing: border-box;
+
+}
+.search{
+    width: 100%;
+    padding: 20px;
+    font-weight: bold;  
+}
+button{
+    background-color: #062226;
+    color: white;
+    font-weight: bold;
+    height:2.6rem;  
+    border: none;  
+}
+
+.bg-Image{
+    height: 200px;
+    background-image: url(https://wallpaper.dog/large/17236367.jpg);
+
+    background-size:cover;
+    margin: 0 auto;
+  }
+.cont{
+    padding: 15px;
+    margin: 0 auto;
+
+}
+h1{
+    text-align: center;
+    color: greenyellow;
+    font-size: 3rem;
+}
+h1,h2{
+    font-family: "Pangolin",sans-serif;
+}
+h2{
+    font-size: 1.8rem;
+}
+h4{
+    margin: 0;
+    margin: 0 0 20px 0
+}
+.row{
+    flex-wrap: wrap;
+}
+.disflex{
+    display: flex;
+}
+.infoCont{
+    background-color: #062226;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.infoCont div{
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+.cards-cont{
+    padding: 5px;
+    box-sizing: border-box;
+}
+.col-6{
+    width: 50%;
+}
+.col-12{
+    width: 100%;
+}
+.card{
+    height: 190px;
+    margin-bottom: 20px;
+    background-color:#062226;
+}
+.info{
+    padding: 8px 0 0 10px;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.gray{
+    background-color: gray;
+}
+p{
+    margin: 5px 0 0 8px;
+}
+.des{
+    font-weight: bold;
+    color:#106c78;
+}
+.specie{
+    margin-left: 3rem;
+}
+@media (min-width: 576px){
+    .cont{
+        max-width: 579px;
+    }
+ 
+    .col-sm-3{
+        width: 25%;
+    }
+    .bg-Image{
+        background-position: 45% 50%;
+    }
+}
+@media (min-width:768px){
+    .cont{
+        max-width: 768px;
+    }
+
+    .infoCont{
+      
+       
+    }
+}
+@media (min-width:992px){
+    .cont{
+        max-width: 976px;
+    }
+
+    .col-sm-6{
+        width: 50%;
+    }
+}
